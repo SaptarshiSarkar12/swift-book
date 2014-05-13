@@ -565,7 +565,7 @@ and the ``maxInputLevelForAllChannels`` static property has been updated to equa
    -> println(AudioChannel.maxInputLevelForAllChannels)
    <- 11
 
-.. QUESTION: we won't have class properties for Swift 1.0, says Chris.
+.. QUESTION: we won't have class properties for Swift 1.0, says [Contributor 7756].
    I've named this section "Static Properties" as a result,
    and mirrored this approach elsewhere in the book.
    Is this the right approach, or should I call them "Type Properties" from the off?
