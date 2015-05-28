@@ -239,6 +239,9 @@ such as when its ``fileName`` property is queried:
    and the property has not yet been initialized,
    there is no guarantee that the property will be initialized only once.
 
+.. 6/19/14, 10:54 PM Chris Lattner:
+   @lazy is not thread safe.  Global variables (and static struct/enum fields) *are*.
+
 .. _Properties_StoredPropertiesAndInstanceVariables:
 
 Stored Properties and Instance Variables
